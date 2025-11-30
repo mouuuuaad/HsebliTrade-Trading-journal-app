@@ -12,6 +12,7 @@ const firebaseConfig = {
   appId: "1:1029205662249:web:336024502c69375042da38"
 };
 
+
 // This robust singleton pattern prevents re-initialization and is Next.js friendly
 const app: FirebaseApp = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 const auth: Auth = getAuth(app);
