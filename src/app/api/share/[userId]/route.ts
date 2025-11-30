@@ -5,6 +5,7 @@ import { getFirestore, Timestamp } from 'firebase-admin/firestore';
 
 export const dynamic = 'force-dynamic';
 
+
 const serviceAccount = {
   "type": "service_account",
   "project_id": "compass-6b774",
