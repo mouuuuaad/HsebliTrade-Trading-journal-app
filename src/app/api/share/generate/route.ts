@@ -6,6 +6,7 @@ import { headers } from 'next/headers';
 import { auth as clientAuth } from '@/lib/firebase'; // Using client auth to verify ID token
 
 // This tells Next.js to run this route dynamically
+
 export const dynamic = 'force-dynamic';
 
 const serviceAccount = {
