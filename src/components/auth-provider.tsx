@@ -9,6 +9,7 @@ import { Loader2 } from 'lucide-react';
 import { authorizedUsers } from '@/lib/config';
 
 
+
 const publicRoutes = ['/login', '/signup', '/guest', '/'];
 const privateRoutePrefix = '/dashboard';
 
