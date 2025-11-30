@@ -16,4 +16,4 @@ export type Trade = {
   postAnalysis?: string;
 };
 
-    
+
